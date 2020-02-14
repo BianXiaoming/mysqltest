@@ -1,0 +1,10 @@
+﻿
+@{
+    ViewData["Title"] = "My";
+    List<Student> list = ViewBag.list as List<Student>;
+}
+
+@foreach (var item in list)
+{
+    <h3>@item.name</h3>
+}
